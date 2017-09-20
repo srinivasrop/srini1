@@ -1,0 +1,8 @@
+taking form te base image oracle linux, 
+exposing the ports with EXPOSE 3306 33060
+
+written shell script for writing data in to mysql
+
+shell script to get data from mysql db
+
+

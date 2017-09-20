@@ -1,0 +1,2 @@
+#!/bin/bash
+myvariable=$(echo "SELECT  name , phone_number   FROM Customer_phone_number" | mysql database -u $user -p$password)

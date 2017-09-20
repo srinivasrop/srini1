@@ -1,0 +1,13 @@
+#!/bin/bash 
+mysql --user=$DB_USER --password=$DB_PASSWD $DB_NAME << EOF
+INSERT INTO $TABLE (\`name\`, \`phone_number\`) VALUES (NULL, "$name", "$phone_number", );
+EOF
+
+DB_NAME='user_information';
+TABLE='customer_phone_number';
+day=$(date +"%m/%d/%y")
+time=$(date +"%H:%M:%S")
+#mysql commands
+mysql --user=$DB_USER --password=$DB_PASSWD $DB_NAME
+INSERT INTO $TABLE (`name `,  `phone_number`) VALUES (NULL, "$name", "$phone_number", );
+QUIT;
